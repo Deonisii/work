@@ -10,9 +10,9 @@
 Выводить нужно только слово "Счастливый" или "Обычный", с большой буквы.'''
 
 x=str(input('Введите 6-ти значый номер :'))
-summa1=x[0] + x[1] + x[2]
+summa1= int(x[0]) + int(x[1]) + int(x[2])
 print(summa1)
-summa2=x[3] + x[4] + x[5]
+summa2=int(x[3]) + int(x[4]) + int(x[5])
 print(summa2)
 
 if summa2==summa1:
