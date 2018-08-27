@@ -8,7 +8,6 @@ def end_word(n: int):
     return (sufix)
 
 
-n = 7
 n=int(input("Введите число программистов: "))
 
 
