@@ -9,14 +9,12 @@
 
 a=int(input())
 while a!=0:
-    print("Число больше 0")
     if a<10:
-        print('Число меньше 10')
-        break
-    if a>100:
-        print('Число больше 100')
+        print(a, 'меньше 10')
         break
     if (a>=10) and (a<=100):
-        print('Число в диапазоне от 10 до 100')
+        print(a)
         break
-print('Проверка завершена')
+    if  a>100 :
+        print(a, 'больше 100 ')
+        break
