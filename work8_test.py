@@ -16,5 +16,5 @@ while a!=0:
         print(a)
         break
     if  a>100 :
-        print(a, 'больше 100 ')
+        print(a, 'больше 100')
         break
