@@ -14,4 +14,4 @@ while a<=100:
         print(a)
     if a>100:
         break
-        
+
